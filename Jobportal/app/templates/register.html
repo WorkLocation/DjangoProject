@@ -1,0 +1,96 @@
+{% extends "inner-base.html" %}
+{% block content %}
+{% load staticfiles %}
+
+{% if status == 'True' %}
+	<div class="alert alert-success" role="alert"><strong>Welldone !</strong> {{ mess }}.</div>
+{% endif %}
+{% if status == 'False' %}
+  <div class="alert alert-danger" role="alert"><strong> {{ mess }}</strong></div>
+{% endif %}
+<div class="pageTitle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <h1 class="page-heading">Register</h1>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <div class="breadCrumb"><a href="#.">Home</a> / <span>Register</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Title End -->
+
+<div class="listpgWraper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="userccount">
+          <div class="socialLogin">
+            <h5>Login Or Register with Social</h5>
+            <a href="#." class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="#." class="gp"><i class="fa fa-google-plus" aria-hidden="true"></i></a> <a href="#." class="tw"><i class="fa fa-twitter" aria-hidden="true"></i></a> </div>
+          <!--<div class="alert alert-success" role="alert"><strong>Well done!</strong> Your account successfully created.</div>
+          <div class="alert alert-warning" role="alert"><strong>Warning!</strong> Better check yourself, you're not looking too good.</div>
+          <div class="alert alert-danger" role="alert"><strong>Oh snap!</strong> Change a few things up and try submitting again.</div>
+		  -->
+          <div class="userbtns">
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#candidate">Candidate</a></li>
+              <li><a data-toggle="tab" href="#employer">Employer</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <div id="candidate" class="formpanel tab-pane fade in active">
+			<form name = "register" action = "/register/" method = "post">
+			{% csrf_token %}
+              <div class="formrow">
+                <input type="text" name="fullname" class="form-control" placeholder="Full Name">
+              </div>
+              <div class="formrow">
+                <input type="text" name="username" class="form-control" placeholder="Username">
+              </div>
+              <div class="formrow">
+                <input type="text" name="emailid" class="form-control" placeholder="Email">
+              </div>
+              <div class="formrow">
+                <input type="text" name="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="formrow">
+                <input type="text" name="conpass" class="form-control" placeholder="Confirm Password">
+              </div>
+              <div class="formrow">
+                <input type="checkbox" value="agree text" name="agree" />
+                There are many variations of passages of Lorem Ipsum available</div>
+              <input type="submit" class="btn" value="Register">
+			  </form>
+            </div>
+            <div id="employer" class="formpanel tab-pane fade in">
+              <div class="formrow">
+                <input type="text" name="cname" class="form-control" placeholder="Company Name">
+              </div>
+              <div class="formrow">
+                <input type="text" name="cusername" class="form-control" placeholder="Username">
+              </div>
+              <div class="formrow">
+                <input type="text" name="cemail" class="form-control" placeholder="Email">
+              </div>
+              <div class="formrow">
+                <input type="text" name="cpass" class="form-control" placeholder="Password">
+              </div>
+              <div class="formrow">
+                <input type="text" name="cpass" class="form-control" placeholder="Confirm Password">
+              </div>
+              <div class="formrow">
+                <input type="checkbox" value="agree text c" name="cagree" />
+                There are many variations of passages of Lorem Ipsum available</div>
+              <input type="submit" class="btn" value="Register">
+            </div>
+          </div>
+          <div class="newuser"><i class="fa fa-user" aria-hidden="true"></i> Already a Member? <a href="#.">Login Here</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,333 @@
+{% extends "inner-base.html" %}
+{% block content %}
+{% load staticfiles %}
+
+{% if status == 'True' %}
+   <div class="alert alert-success" role="alert"><strong> {{ mess }}.</strong></div>
+{% endif %}
+<h4>{{ request.session.sessionuser }}</h4>
+{% if request.session.sessionuser != None %}
+	<div class="pageTitle">
+	<div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <h1 class="page-heading">Edit Profile</h1>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <div class="breadCrumb"><a href="/">Home</a> / <span>Edit Profile</span></div>
+      </div>
+    </div>
+	</div>
+	</div>
+
+<!-- Page Title End -->
+ {% if data %}
+	<td></td>
+{% endif %}
+<h2>{{ url }}</h2>
+	<div class="listpgWraper">
+	<div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="userccount">
+          <div class="formpanel"> 
+            
+            <!-- Personal Information -->
+            <h5>Personal Information</h5>
+            <div class="row">
+			
+              <div class="col-md-6">
+			  <form method="post" enctype="multipart/form-data" action="/edit-profile/">
+			  {% csrf_token %}
+                <div class="formrow">
+                  <input type="text" name="name" class="form-control" placeholder="UserName" value = "{{ data.username }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="email" class="form-control" placeholder="Email" value = "{{ data.email }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="phone" class="form-control" placeholder="Phone" value = "{{ data.phone }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="website" class="form-control" placeholder="Website" value = "{{ data.website }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="address" class="form-control" placeholder="Address" value = "{{ data.address }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="designation" class="form-control" placeholder="Designation" value = "{{ data.designation }}">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="formrow">
+                  <select class="form-control" name="experience" value = "{{ data.experience }}">
+                    <option>Experience</option>
+                    <option>Fresh</option>
+                    <option>1 Year</option>
+                    <option>2 Years</option>
+                    <option>3 Years</option>
+                    <option>4 Years</option>
+                    <option>5 Years</option>
+                    <option>6 Years</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="formrow">
+                  <select class="form-control" name="age" value = "{{ data.age }}">
+                    <option>Age</option>
+                    <option>20 Years</option>
+                    <option>21 Years</option>
+                    <option>22 Years</option>
+                    <option>23 Years</option>
+                    <option>24 Years</option>
+                    <option>25 Years</option>
+                    <option>26 Years</option>
+                    <option>27 Years</option>
+                    <option>28 Years</option>
+                    <option>29 Years</option>
+                    <option>30 Years</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="formrow">
+                  <select class="form-control" name="current" value = "{{ data.current_salary }}">
+                    <option>Current Salary</option>
+                    <option>$500 - $999</option>
+                    <option>$999 - $1499</option>
+                    <option>$1500 - $1999</option>
+                    <option>$2000 - $3000</option>
+                    <option>$3000+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="formrow">
+                  <select class="form-control" name="demand" value = "{{ data.expected_salary }}">
+                    <option>Demand</option>
+                    <option>$500 - $999</option>
+                    <option>$999 - $1499</option>
+                    <option>$1500 - $1999</option>
+                    <option>$2000 - $3000</option>
+                    <option>$3000+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="edulevel" class="form-control" placeholder="Education Level" value = "{{ data.edulevel }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="file" name="uploadcv" class="form-control" value = "{{ data.cv_path  }}">{{ data.cv_path  }}
+				  <a href="{{ data.cv_path  }}">{{ data.cv_path  }}</a></p>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="formrow">
+                  <textarea name="aboutme" class="form-control" placeholder="About Me" value = "{{ data.aboutme }}">{{ data.aboutme }}</textarea>
+                </div>
+              </div>
+            </div>
+            <hr>
+            
+            <!-- Skills -->
+            <h5>Skills</h5>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="skill" class="form-control" placeholder="Skill Name" value = "{{ data.skill_name }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="skilllevel" class="form-control" placeholder="Skill Level in %" value = "{{ data.skill_level }}">
+                </div>
+              </div>
+            </div>
+            <a href="#.">Add Other</a>
+            <hr>
+            
+            <!-- Education -->
+            <h5>Education</h5>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="degreename" class="form-control" placeholder="Degree Name" value = "{{ data.degree_name }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="degreedate" class="form-control" placeholder="Degree Compelete Date" value = "{{ data.degree_date }}">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="formrow">
+                  <textarea class="form-control" name="aboutdeg" placeholder="About Degree" value = "{{ data.about_degree }}">{{ data.about_degree }}</textarea>
+                </div>
+              </div>
+            </div>
+            <a href="#.">Add Other</a>
+            <hr>
+            
+            <!-- Experience -->
+            <h5>Experience</h5>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="company" class="form-control" placeholder="Company" value = "{{ data.company }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="webcom" class="form-control" placeholder="Company Website" value = "{{ data.company_website }}">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="formrow">
+                  <select class="form-control" name="join_frm" value = "{{ data.join_from }}">
+                    <option>Join From</option>
+                    <option value = "{{ request.session.join_frm }}">2011</option>
+                    <option value = "{{ request.session.join_frm }}">2012</option>
+                    <option value = "{{ request.session.join_frm }}">2013</option>
+                    <option value = "{{ request.session.join_frm }}">2014</option>
+                    <option value = "{{ request.session.join_frm }}">2015</option>
+                    <option value = "{{ request.session.join_frm }}">2016</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="formrow">
+                  <select class="form-control" name="endon" value = "{{ data.endon }}">
+                    <option>End on</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>Present</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="location" class="form-control" placeholder="Location" value = "{{ data.location }}">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="formrow">
+                  <textarea class="form-control" name="about_company" placeholder="About Company" value = "{{ data.about_company }}">{{ data.about_company }}</textarea>
+                </div>
+              </div>
+            </div>
+            <a href="#.">Add Other</a>
+            <hr>
+            
+            <!-- Portfolio -->
+            <h5>Portfolio</h5>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="projname" class="form-control" placeholder="Project Name" value = "{{ data.project_name }}">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="formrow">
+                  <select class="form-control" name="startfrm" value = "{{ data.project_start }}">
+                    <option>Srart From</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="formrow">
+                  <select class="form-control" name="endon2" value = "{{ data.project_end }}">
+                    <option>End on</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>Present</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="formrow">
+                  <input type="text" name="projdesc" class="form-control" placeholder="Project Short Description" value = "{{ data.project_desc }}">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="formrow">
+                  <input type="file" name="project_file" class="form-control" value = "{{ data.project_file }}">
+				  <a href="/media/{{ data.project_file }}">{{ data.project_file }}</a></p>
+                </div>
+              </div>
+            </div>
+            <a href="#.">Add Other</a>
+            <hr>
+            
+            <!-- Social -->
+            <h5>Social</h5>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="fb" class="form-control" placeholder="Facebook" value = "{{ data.facebook }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="twitter" class="form-control" placeholder="Twitter" value = "{{ data.twitter }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="gplus" class="form-control" placeholder="Google Plus" value = "{{ data.google_plus }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="linkedin" class="form-control" placeholder="Linked In" value = "{{ data.linkedin }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="pinterest" class="form-control" placeholder="Pinterest" value = "{{ data.pinterest }}">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="formrow">
+                  <input type="text" name="behance" class="form-control" placeholder="Behance" value = "{{ data.behance }}">
+                </div>
+              </div>
+            </div>
+            <br>
+            <input type="submit" class="btn" value="Update and Save">
+          </div>
+        </div>
+		</form>
+      </div>
+    </div>
+  </div>
+	</div>
+{% else %}
+    <script>window.location.href = '/index/';</script>
+{% endif %}
+{% endblock %}

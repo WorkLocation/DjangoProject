@@ -1,0 +1,1885 @@
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+
+
+
+
+  
+        
+        
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+    
+    
+    
+    
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<script type="text/javascript">var ue_t0=ue_t0||+new Date();</script>
+<script type="text/javascript">
+var ue_hob=+new Date();
+var ue_id='KGYPD7FNFYZM3Y9WFDMX',
+ue_csm = window,
+ue_err_chan = 'jserr-rw',
+ue = {};
+(function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Date};e.d=function(b){return f()-(b?0:d.ue_t0)};e.stub=function(b,a){if(!b[a]){var c=[];b[a]=function(){c.push([c.slice.call(arguments),e.d(),d.ue_id])};b[a].replay=function(b){for(var a;a=c.shift();)b(a[0],a[1],a[2])};b[a].isStub=1}};e.exec=function(b,a){return function(){if(1==window.ueinit)try{return b.apply(this,arguments)}catch(c){ueLogError(c,{attribution:a||"undefined",logLevel:"WARN"})}}}})(ue_csm);
+
+ue.stub(ue,"log");ue.stub(ue,"onunload");ue.stub(ue,"onflush");
+
+(function(c,d){function e(f,b){if(!(a.ec>a.mxe)&&f){a.ec++;a.ter.push(f);b=b||{};var c=f.logLevel||b.logLevel;c&&c!=k||a.ecf++;b.pageURL=""+(d.location?d.location.href:"");b.logLevel=c;b.attribution=f.attribution||b.attribution;a.erl.push({ex:f,info:b})}}function h(a,b,d,e,g){c.ueLogError({m:a,f:b,l:d,c:""+e,err:g,fromOnError:1,args:arguments},g?{attribution:g.attribution,logLevel:g.logLevel}:void 0);return!1}var k="FATAL",a={ec:0,ecf:0,pec:0,ts:0,erl:[],ter:[],mxe:50,startTimer:function(){a.ts++;
+setInterval(function(){c.ue&&a.pec<a.ec&&c.uex("at");a.pec=a.ec},1E4)}};h.skipTrace=1;e.skipTrace=1;e.isStub=1;c.ueLogError=e;c.ue_err=a;d.onerror=h})(ue_csm,window);
+
+var ue_url='/gp/css/summary/print.html/ref=od_aui_print_invoice/uedata/unsticky/256-3220775-4395951/YourAccount/ntpoffrw',
+ue_sid='256-3220775-4395951',
+ue_mid='A21TJRUUN4KGV',
+ue_sn='www.amazon.in',
+ue_furl='fls-eu.amazon.in',
+ue_navtiming=1,
+ue_log_idx=0,
+ue_fcsn=1,
+ue_isrw=true,
+ue_fpf='//fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:256-3220775-4395951:KGYPD7FNFYZM3Y9WFDMX$uedata=s:',
+ue_lnb=0,
+ue_lwl=0,
+ue_ran=0,
+ue_qsl=7000,
+ue_mce='click',
+ue_unbf=0,
+ue_rpl_ns=0,
+ue_urt=3,
+ue_sdbbc=0,
+ue_fma=1,
+ue_bwd=0,
+ue_orct=1,
+ue_markers=0,
+ue_int=0,
+ue_ld_err=0,
+ue_fci_ft=0,
+ue_ios_ip=0,
+ue_cors=0;
+
+if (!window.ue_csm) {var ue_csm = window;}
+function ue_viz(){(function(c,e,a){function k(b){if(c.ue.viz.length<p&&!l){var a=b.type;b=b.originalEvent;/^focus./.test(a)&&b&&(b.toElement||b.fromElement||b.relatedTarget)||(a=e[m]||("blur"==a||"focusout"==a?"hidden":"visible"),c.ue.viz.push(a+":"+(+new Date-c.ue.t0)),"visible"==a&&(ue.isl&&uex("at"),l=1))}}for(var l=0,f,g,m,n=["","webkit","o","ms","moz"],d=0,p=20,h=0;h<n.length&&!d;h++)if(a=n[h],f=(a?a+"H":"h")+"idden",d="boolean"==typeof e[f])g=a+"visibilitychange",m=(a?a+"V":"v")+"isibilityState";
+k({});d&&e.addEventListener(g,k,0);c.ue&&d&&(c.ue.pageViz={event:g,propHid:f})})(ue_csm,document,window)};
+
+(function(a,g){function x(a){return a&&a.replace&&a.replace(/^\s+|\s+$/g,"")}function p(a){return"undefined"===typeof a}function s(d,c,e,h){var g=h||+new Date,m;a.ueam&&a.ueam(c,d,h);if(c||p(e)){if(d)for(m in h=c?f("t",c)||f("t",c,{}):a.ue.t,h[d]=g,e)e.hasOwnProperty(m)&&f(m,c,e[m]);return g}}function f(d,c,e){var f=a.ue,g=c&&c!=f.id?f.sc[c]:f;g||(g=f.sc[c]={});"id"==d&&e&&(f.cfa2=1,a.ue_ran&&(a.ue_cel&&a.ue_cel.reset(e),a.ue.log.reset&&a.ue.log.reset()));return g[d]=e||g[d]}function t(d,c,e,f,g){e=
+"on"+e;var m=c[e];"function"===typeof m?d&&(a.ue.h[d]=m):m=function(){};c[e]=g?function(a){f(a);m(a)}:function(a){m(a);f(a)};c[e]&&(c[e].isUeh=1)}function y(d,c,e){function h(c,e){var b=[c],E=0,g={},m,h;e?(b.push("m=1"),g[e]=1):g=a.ue.sc;for(h in g)if(g.hasOwnProperty(h)){var k=f("wb",h),l=f("t",h)||{},q=f("t0",h)||a.ue.t0,n;if(e||2==k){k=k?E++:"";b.push("sc"+k+"="+h);for(n in l)3>=n.length&&!p(l[n])&&null!==l[n]&&b.push(n+k+"="+(l[n]-q));b.push("t"+k+"="+l[d]);if(f("ctb",h)||f("wb",h))m=1}}!z&&m&&
+b.push("ctb=1");return b.join("&")}function B(c,b,e,d){if(c){var f=a.ue_err,h;d&&a.ue.log||(h=new Image,a.ue.iel.push(h),h.src=c);F?a.ue_fpf&&g.encodeURIComponent&&c&&(d=new Image,c=""+a.ue_fpf+g.encodeURIComponent(c)+":"+(+new Date-a.ue_t0),a.ue.iel.push(d),d.src=c):a.ue.log&&(h=g.chrome&&"ul"==b,a.ue.log(c,"uedata",a.ue_svi?{n:1,img:!d&&h?1:0}:{n:1}),a.ue.ielf.push(c));f&&!f.ts&&f.startTimer();a.ue.b&&(f=a.ue.b,a.ue.b="",B(f,b,e,1))}}function m(c){if(!ue.collected){var b=c.timing,e=c.navigation,
+d=ue.t;b&&(d.na_=b.navigationStart,d.ul_=b.unloadEventStart,d._ul=b.unloadEventEnd,d.rd_=b.redirectStart,d._rd=b.redirectEnd,d.fe_=b.fetchStart,d.lk_=b.domainLookupStart,d._lk=b.domainLookupEnd,d.co_=b.connectStart,d._co=b.connectEnd,d.sc_=b.secureConnectionStart,d.rq_=b.requestStart,d.rs_=b.responseStart,d._rs=b.responseEnd,d.dl_=b.domLoading,d.di_=b.domInteractive,d.de_=b.domContentLoadedEventStart,d._de=b.domContentLoadedEventEnd,d._dc=b.domComplete,d.ld_=b.loadEventStart,d._ld=b.loadEventEnd,
+b=d.na_,c="function"!==typeof c.now||p(b)?0:new Date(b+c.now())-new Date,d.ntd=c+a.ue.t0);e&&(d.ty=e.type+a.ue.t0,d.rc=e.redirectCount+a.ue.t0);ue.collected=1}}function t(b){var c=n&&n.navigation?n.navigation.type:A,d=c&&2!=c,e=a.ue.bfini;a.ue.cfa2||(e&&1<e&&(b+="&bfform=1",d||(a.ue.isBFT=e-1)),2==c&&(b+="&bfnt=1",a.ue.isBFT=a.ue.isBFT||1),a.ue.ssw&&a.ue.isBFT&&(p(a.ue.isNRBF)&&(c=a.ue.ssw(a.ue.oid),c.e||p(c.val)||(a.ue.isNRBF=1<c.val?0:1)),p(a.ue.isNRBF)||(b+="&nrbf="+a.ue.isNRBF)),a.ue.isBFT&&!a.ue.isNRBF&&
+(b+="&bft="+a.ue.isBFT));return b}function w(){a.ue.isl&&y("eod")}if(c||p(e)){for(var q in e)e.hasOwnProperty(q)&&f(q,c,e[q]);s("pc",c,e);q=f("id",c)||a.ue.id;var b=a.ue.url+"?"+d+"&v="+a.ue.v+"&id="+q,z=f("ctb",c)||f("wb",c),n=g.performance||g.webkitPerformance,k,l;z&&(b+="&ctb="+z);1<a.ueinit&&(b+="&ic="+a.ueinit);!a.ue._fi||"at"!=d||c&&c!=q||(b+=a.ue._fi());if(!("ld"!=d&&"ul"!=d||c&&c!=q)){if("ld"==d){try{g.onbeforeunload&&g.onbeforeunload.isUeh&&(g.onbeforeunload=null)}catch(D){}if(g.chrome)for(l=
+0;l<ue.ulh.length;l++)C("beforeunload",ue.ulh[l]);(l=document.ue_backdetect)&&l.ue_back&&l.ue_back.value++;a._uess&&(k=a._uess());a.ue.isl=1;a.ue_sdbbc&&v("beforeunload",w)}ue._bf&&(b+="&bf="+ue._bf());a.ue_navtiming&&n&&n.timing&&(f("ctb",q,"1"),1==a.ue_navtiming&&s("tc",A,A,n.timing.navigationStart));n&&m(n);a.ue.t.hob=a.ue_hob;a.ue.t.hoe=a.ue_hoe;a.ue.ifr&&(b+="&ifr=1")}s(d,c,e);e="ld"==d&&c&&f("wb",c);var u;1!==ue_csm.ue_fma||e||q==a.ue.oid||G((f("t",c)||{}).tc||+f("t0",c),+f("t0",c));a.ue_mbl&&
+a.ue_mbl.cnt&&!e&&(b+=a.ue_mbl.cnt());e?f("wb",c,2):"ld"==d&&(r.lid=x(q));for(u in a.ue.sc)if(1==f("wb",u))break;if(e){if(a.ue.s)return;b=h(b,null)}else l=h(b,null),l!=b&&(l=t(l),a.ue.b=l),k&&(b+=k),b=h(b,c||a.ue.id);b=t(b);if(a.ue.b||e)for(u in a.ue.sc)2==f("wb",u)&&delete a.ue.sc[u];k=0;ue._rt&&(b+="&rt="+ue._rt());e||(a.ue.s=0,(k=a.ue_err)&&0<k.ec&&k.pec<k.ec&&(k.pec=k.ec,b+="&ec="+k.ec+"&ecf="+k.ecf),k=f("ctb",c),f("t",c,{}));b&&a.ue.tag&&0<a.ue.tag().length&&(b+="&csmtags="+a.ue.tag().join("|"),
+a.ue.tag=a.ue.tagC());b&&a.ue.viz&&0<a.ue.viz.length&&(b+="&viz="+a.ue.viz.join("|"),a.ue.viz=[]);b&&!p(a.ue_pty)&&(b+="&pty="+a.ue_pty+"&spty="+a.ue_spty+"&pti="+a.ue_pti);b&&a.ue.tabid&&(b+="&tid="+a.ue.tabid);b&&a.ue.aftb&&(b+="&aftb=1");b&&a.ue.sbf&&(b+="&sbf=1");!a.ue._ui||c&&c!=q||(b+=a.ue._ui());a.ue.a=b;B(b,d,k,e)}}function v(a,c,e){e=e||g;e.addEventListener?e.addEventListener(a,c,!1):e.attachEvent&&e.attachEvent("on"+a,c)}function C(a,c,e){e=e||g;e.removeEventListener?e.removeEventListener(a,
+c,!1):e.detachEvent&&e.detachEvent("on"+a,c)}function w(){function d(){a.onUl()}function c(a){return function(){e[a]||(e[a]=1,y(a))}}var e=a.ue.r,f,p;a.onLd=c("ld");a.onLdEnd=c("ld");a.onUl=c("ul");f={stop:c("os")};g.chrome?(v("beforeunload",d),ue.ulh.push(d)):f[D]=a.onUl;for(p in f)f.hasOwnProperty(p)&&t(0,g,p,f[p]);a.ue_viz&&ue_viz();v("load",a.onLd);s("ue")}function G(d,c){a.ue_mbl&&a.ue_mbl.ajax&&a.ue_mbl.ajax(d,c);a.ue.tag("ajax-transition")}a.ueinit=(a.ueinit||0)+1;var r={t0:g.aPageStart||a.ue_t0,
+id:a.ue_id,url:a.ue_url,rid:a.ue_id,a:"",b:"",h:{},r:{ld:0,oe:0,ul:0},s:1,t:{},sc:{},iel:[],ielf:[],fc_idx:{},viz:[],v:"0.520.2",d:a.ue&&a.ue.d,log:a.ue&&a.ue.log,clog:a.ue&&a.ue.clog,onflush:a.ue&&a.ue.onflush,onunload:a.ue&&a.ue.onunload,stub:a.ue&&a.ue.stub,lr:a.ue&&a.ue.lr,exec:a.ue&&a.ue.exec,ulh:[],cfa2:0},F=a.ue_fpf?1:0,D="beforeunload",A;r.oid=x(r.id);r.lid=x(r.id);a.ue=r;a.ue._t0=a.ue.t0;a.ue.tagC=function(){var a={};return function(c){c&&(a[c]=1);c=[];for(var e in a)a.hasOwnProperty(e)&&
+c.push(e);return c}};a.ue.tag=a.ue.tagC();a.ue.ifr=g.top!==g.self||g.frameElement?1:0;ue.attach=v;ue.detach=C;ue.reset=function(d,c){d&&(a.ue_cel&&a.ue_cel.reset(),a.ue.t0=+new Date,a.ue.rid=d,a.ue.id=d,a.ue.fc_idx={},a.ue.viz=[])};a.uei=w;a.ueh=t;a.ues=f;a.uet=s;a.uex=y;w()})(ue_csm,window);
+
+
+
+<!-- zaacfz5u4qk5vvpovayxdxs4s7imok6p4dug9qgyyly4ik11em34z649sbhly10eddgiik8qttp6qlkyddl2ka92fuvab56zf3guttnyoobigxlslbag5sob0mbkr74ibfy8xpwyzb4a3nbgtjd8hbkws9c9stm710fyfilytwvbus5kzqt4una1d86dvm35gybe844gmj6dyh62j8n9q8tleomox2efesw5y7p059k1w0fxsac0n -->
+(function(g){var a=g.ue;a.cv={};a.cv.scopes={};a.count=function(b,e,c){var d={},f=a.cv;d.counter=b;d.value=e;d.t=a.d();c&&c.scope&&(f=a.cv.scopes[c.scope]=a.cv.scopes[c.scope]||{},d.scope=c.scope);if(void 0===e)return f[b];f[b]=e;b=0;c&&c.bf&&(b=1);a.clog&&0===b?a.clog(d,"csmcount",{bf:b}):a.log&&a.log(d,"csmcount",{c:1,bf:b})};a.count("baselineCounter2",1)})(ue_csm);
+
+var ue_hoe=+new Date();
+</script>
+
+
+<style type="text/css">
+
+.displayAddressDiv .displayAddressUL {
+  list-style-type: none;
+  padding: 0%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.displayAddressDiv .displayAddressLI {
+ width: 100%;
+}
+
+.displayAddressDiv {
+  vertical-align: top;
+  padding-bottom: 0.5em;
+}
+
+.displayAddressDiv h2 {
+  font-size: 1em;
+  display: inline;
+}
+
+#chooseAddressDiv table {
+  width: 100%;
+}
+
+#chooseAddressDiv td {
+  vertical-align: top;
+}
+
+.enterAddressFieldLabel {
+  text-align: right;
+}
+
+.enterAddressFieldICAMLabel {
+  vertical-align: middle;
+  max-width: 200px;
+}
+
+.enterAddressFieldICAMLong {
+  width: 386px;
+}
+
+.enterAddressFieldICAMShort {
+  width: 200px;
+}
+
+.enterAddressFormTable td {
+    padding: 2px;
+}
+
+#enterAddressFormDiv input {
+  text-align: left;
+}
+
+#enterAddressFormDiv select {
+  text-align: left;
+  overflow: auto;
+}
+
+div#enterAddressFormDiv {
+  text-align: left;
+}
+
+.enterAddressFieldError {
+  display: block;
+  text-align: left;
+  font-size: .8em;
+  color: red;
+  clear: both;
+}
+
+.enterAddressFieldWarning {
+  display: block;
+  text-align: left;
+  font-size: .8em;
+  color: #e77600;
+  clear: both;
+}
+
+#enterAddressFormDiv .enterAddressFieldSeparatorDiv {
+  clear: both;
+}
+
+.enterAddressFormInputError {
+  border: 1px solid #990000;
+}
+
+#chooseAddressDiv .chooseAddressEditThisAddressButton {
+  margin : 0em .5em;
+}
+
+#chooseAddressDiv .chooseAddressDeleteThisAddressButton {
+  margin : 0em .5em;
+}
+
+#chooseAddressDiv .chooseAddressChooseThisAddressRadioButton {
+  vertical-align: -4em;
+}
+
+#chooseAddressDiv .chooseAddressChooseThisAddressRadioButtonDiv {
+  float : left;
+  height: 100%;
+}
+
+#chooseAddressDiv td {
+ width: 33%;
+}
+
+#chooseAddressDiv .chooseAddressSeparator {
+  margin-top : 1em;
+}
+
+#deleteAddressDiv {
+  color: #a00000;
+  padding-left: 3em;
+}
+
+.enterDeliveryPrefsLabel {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#deliveryPreferences {
+ color: #E47911; 
+ text-decoration: none;
+}
+
+#learnMoreLink a {
+ color: #004B91;
+ text-decoration: none;
+}
+
+#learnMoreLink a:hover, #learnMoreLink a:active, #learnMoreLink a:hover span, #learnMoreLink a:active span {
+ color: #E47911;
+ text-decoration: underline;
+}
+
+#whatsThisLink a {
+ color: #004B91;
+ text-decoration: none;
+}
+
+#whatsThisLink a:hover, #whatsThisLink a:active, #whatsThisLink a:hover span, #whatsThisLink a:active span {
+ color: #E47911;
+ text-decoration: underline;
+}
+
+</style>
+
+
+
+
+
+
+
+<style type="text/css"><!--
+
+* html body { margin-top: 0px; }
+.serif { font-family: times,serif; font-size: medium; } 
+.sans { font-family: verdana,arial,helvetica,sans-serif; font-size: medium; }
+
+.small { font-family: verdana,arial,helvetica,sans-serif; font-size: small; }
+
+h2.small {margin-bottom: 0em; }
+h2.h1 { margin-bottom: 0em; }
+h2.h3color { margin-bottom: 0em; }
+.listprice { font-family: arial,verdana,helvetica,sans-serif; text-decoration: line-through; } 
+.attention { background-color: #FFFFD5; } 
+.price { font-family: verdana,arial,helvetica,sans-serif; color: #990000; } 
+.alertgreen { color: #009900; font-weight: bold; } 
+.active-nav { background-color: #000000; color: #FFFFFF; } 
+.inactive-nav { background-color: #FFFFFF; color: #000000; } 
+.tigerBox .head { border: 1px solid #CCCC99; border-bottom-width: 0px; background-color: #EEEECC; } 
+.tigerBox .body { border: 1px solid #CCCC99; } 
+.tigerBoxWithEyebrow .head { border-width: 0px; } 
+.tigerBoxWithEyebrow .body { border: 1px solid #CCCC99; } 
+.detailPageTigerBox .head { border-width: 0px; } 
+.detailPageTigerBox .body { border: 1px solid #CCCC99; } 
+.detailPageTigerBox .darkCell { background-color: #EEEECC; } 
+.eyebrow { font-family: verdana,arial,helvetica,sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; text-decoration: none; color: #FFFFFF; } 
+div#page-wrap { min-width: 980px; }
+div#leftcol, div#leftcolhidden { float: left; width: 180px; margin:5px 0px 0px 5px; display: inline; }
+
+div#rightcol, div#rightcolhidden { float: right; width: 300px; margin-top:5px;}
+
+div#leftcolhidden { clear:left;}
+div#rightcolhidden { clear:right;}div#center1, div#centercol, div#centerrightspancol { overflow: hidden; }
+* html div#center1 { width: 100%; }
+* html div#centercol { width:100%; }
+* html div#centerrightspancol { width: 100%; }
+div#page-footer { clear: both; }
+* html div#page-wrap { border-right: 980px solid #fff; width: 100%; margin-right: 25px;}
+* html div#content { float: left; position:relative; margin-right: -980px; }
+a:active { font-family: verdana,arial,helvetica,sans-serif; color: #FF9933; } 
+a:visited { font-family: verdana,arial,helvetica,sans-serif; color: #996633; } 
+a:link { font-family: verdana,arial,helvetica,sans-serif; color: #004B91; } 
+a.noclick, a.noclick:visited { color: #000000; }
+.noLinkDecoration a { text-decoration: none; border-bottom: none; }
+.noLinkDecoration a:hover { text-decoration: underline; }
+.noLinkDecoration a.dynamic:hover { text-decoration: none; border-bottom: 1px dashed; }
+.noLinkDecoration a.noclick:hover { color: #000000; text-decoration: none; border-bottom: 1px dashed; }
+
+.amabot_right .h1 { color: #E47911; font-size: .92em; } 
+.amabot_right .amabot_widget .headline, .amabot_left .amabot_widget .headline { color: #E47911; font-size: .92em; display: block; font-weight: bold; } 
+.amabot_widget .headline { color: #E47911; font-size: medium; display: block; font-weight: bold; } 
+.amabot_right .amabot_widget { padding-top: 8px;  padding-bottom: 8px; padding-left: 8px;  padding-right: 8px; border-bottom: 1px solid #C9E1F4; border-left: 1px solid #C9E1F4; border-right: 1px solid #C9E1F4; border-top: 1px solid #C9E1F4; } 
+.amabot_left .h1 { color: #E47911; font-size: .92em; } 
+.amabot_left .amabot_widget { padding-top: 8px;  padding-bottom: 8px;  padding-left: 8px;  padding-right: 8px; border-bottom: 1px solid #C9E1F4; border-left: 1px solid #C9E1F4; border-right: 1px solid #C9E1F4;  border-top: 1px solid #C9E1F4; }
+ 
+.amabot_center div.unified_widget, .amabot_center .amabot_widget { font-size: 12px; }
+.amabot_right div.unified_widget, .amabot_right .amabot_widget { font-size: 12px; }
+.amabot_left div.unified_widget, .amabot_left .amabot_widget { font-size: 12px; }
+
+.nobullet { list-style-type: none; } 
+.homepageTitle { font-size: 28pt; font-family: 'Arial Bold', Arial, sans-serif; font-weight: 800; font-variant: normal; color: #80B6CE; line-height:1em; } 
+.tigerbox { padding-top: 8px;  padding-bottom: 8px;  padding-left: 8px;  padding-right: 8px;  border-bottom: 1px solid #C9E1F4; border-left: 1px solid #C9E1F4;  border-right: 1px solid #C9E1F4;  border-top: 1px solid #C9E1F4; } 
+.hr-leftbrowse { border-top-width: 1px;	border-right-width: 1px;	border-bottom-width: 1px; border-left-width: 1px; border-top-style: dashed; border-right-style: none; border-bottom-style: none; border-left-style: none; border-top-color: #999999; border-right-color: #999999; border-bottom-color: #999999; border-left-color: #999999; margin-top: 10px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px; } 
+div.unified_widget p { margin:0 0 0.5em 0; line-height:1.4em; }
+
+div.unified_widget h2 { color:#E47911; padding:0; }
+
+.amabot_right div.unified_widget .headline, .amabot_left div.unified_widget .headline { color: #E47911; font-size: .92em; display: block; font-weight: bold; }
+div.unified_widget .headline { color: #E47911; font-size: medium; display: block; font-weight: bold;}
+div.unified_widget sup { font-weight:normal; font-size: 75%; } 
+div.unified_widget h2 sup { font-size: 50%; }
+
+td.amabot_left div.unified_widget h2, td.amabot_right div.unified_widget h2, div.amabot_left div.unified_widget h2, div.amabot_right div.unified_widget h2 { font-size:100%; margin:0 0 0.5em 0; } 
+td.amabot_center div.unified_widget h2, div.amabot_Center div.unified_widget h2 { font-size:135%; font-weight:bold; margin:0 0 0.35em 0px; } 
+td.amabot_center, div.amabot_center { padding:5px 15px 5px 10px; }
+div.unified_widget ul { margin: 1em 0; padding: 0 0 0 15px; list-style-position:inside; }
+
+div.unified_widget ol { margin:0; padding:0 0 0 2.5em; }
+
+div.unified_widget a:link, div.unified_widget a:visited { text-decoration:underline; }
+div.unified_widget a:hover { text-decoration:underline; }
+div.unified_widget p.seeMore { clear:both; font-family:verdana,arial,helvetica,sans-serif; margin:0; padding-left:1.15em; text-indent: -1.15em; font-size:100%; font-weight:normal; } 
+div.unified_widget p.seeMore a:link, div.unified_widget p.seeMore a:visited { text-decoration:underline; } 
+div.unified_widget p.seeMore a:hover { text-decoration: underline; } 
+div.unified_widget .carat, div.left_nav .carat { font-weight:bold; font-size:120%; font-family:verdana,arial,helvetica,sans-serif; color:#E47911; margin-right:0.20em; } 
+div.unified_widget a img { border:0; }
+ 
+div.h_rule { clear:both; } 
+div#centerrightspancol div.h_rule { clear:right; }
+div.unified_widget { margin-bottom:2em; clear:both; } 
+div.unified_widget div.col1 { width: 100%; } 
+div.unified_widget div.col2 { width: 49%; } 
+div.unified_widget div.col3 { width: 32%; } 
+div.unified_widget div.col4 { width: 24%; } 
+div.unified_widget div.col5 { width: 19%; } 
+div.unified_widget table { border:0; border-collapse:collapse; width:100%; } 
+div.unified_widget td { padding:0 8px 8px 0; vertical-align:top; } 
+div.unified_widget table.col1 td { width:100%; } 
+div.unified_widget table.col2 td { width:49%; } 
+div.unified_widget table.col3 td { width:32%; } 
+div.unified_widget table.col4 td { width:24%; } 
+div.unified_widget table.col5 td { width:19%; } 
+div.unified_widget td.bottom { vertical-align:baseline; } 
+div.unified_widget table h4, div.unified_widget h4 { color:#000; font-size:100%; font-weight:normal; margin:0; padding:0; } 
+div.rcmBody div.prodImage, amabot_widget div.prodImage {float:left; margin:0px 0.5em 0.25em 0px;}
+
+td.amabot_right div.unified_widget, td.amabot_left div.unified_widget, div.amabot_right div.unified_widget, div.amabot_left div.unified_widget { border:1px solid #C9E1F4; padding:8px; margin-bottom:20px; }
+
+* html td.amabot_right div.unified_widget, * html div.amabot_right div.unified_widget { height:100%; }
+* html td.amabot_left div.unified_widget, * html div.amabot_left div.unified_widget { height:100%; }
+
+div.rcmBody, amabot_widget div.rcmBody { line-height:1.4em; }
+div.rcmBody a:link, div.rcmBody a:visited { text-decoration: underline; }
+
+div.rcmBody p.seeMore, amabot_widget div.rcmBody p.seeMore { margin-top:0.5em; }
+div.rcmBody div.bannerImage { text-align:center; }
+div.rcmBody h2 span.homepageTitle { display:block; margin-bottom:-0.3em; margin-top:-0.12em; line-height:1em; }
+div.rcmBody h2 img { float:none; }
+table.coopTable div.rcmBody .headline { font-size: 110%; }
+table.coopTable div.rcmBody h2 { font-size: 110%; font-weight:bold; }
+table.promo div.rcmBody h2 { font-size: 100%; font-weight:bold; }
+div.blurb div.title { font-weight:bold; padding-top:5px; padding-bottom:2px; }
+
+div.left_nav { font-family: Arial, sans-serif; font-size:100%; margin:0; line-height:1.05em; width:100%; border:1px solid #C9E1F4; padding-bottom:10px; } 
+div.left_nav h2 { margin:0 0 0 0; color:#000000; font-weight:bold; line-height:1.25em; font-size:100%; font-family:verdana,arial,helvetica,sans-serif; padding: 3px 6px; background-color:#EAF3FE; } 
+div.left_nav h3 { font-family:verdana,arial,helvetica,sans-serif; margin:0.5em 0 0.4em 0.5em; color:#E47911; font-weight:bold; line-height:1em; font-size:100%; padding-right:0.5em; } 
+div.left_nav ul { margin:0; padding:0; } 
+div.left_nav li, div.left_nav p { list-style:none; margin:0.5em 0.5em 0 1em; line-height:1.2em;}
+ 
+div.left_nav hr { margin:1em 0.5em; border-top:0; border-left:0; border-right:0; border-bottom:1px dashed #cccccc; }
+
+div.left_nav a:link, div.left_nav a:visited { color:#003399; text-decoration:none; font-family:Arial, sans-serif; } 
+div.left_nav a:hover { color:#2a70fc; text-decoration:underline; } 
+div.left_nav p.seeMore { padding-left:0.9em; text-indent:-0.9em; margin-top:0.35em; margin-bottom:1em; }
+ 
+div.left_nav p.seeMore a:link, div.left_nav p.seeMore a:visited { text-decoration:none; } 
+div.left_nav p.seeMore a:hover { text-decoration:underline; } 
+div.asinItem { float:left; margin-bottom:1em; width:32%; } 
+div.asinTextBlock { padding:0 8px 8px 0; } 
+div.asinItem div.prodImage { height:121px; display:table-cell; vertical-align:bottom; } 
+div.asinItem div.localImage { display:table-cell; vertical-align:bottom; }
+
+div.asinItem span { margin: 0.5em 0 0.25em 0; } 
+div.asinItem ul { margin:0; padding:0 0 0.5em 1.3em; text-indent:-1.3em; font-size:90%; }
+ 
+div.asinTitle {padding-top:3px; padding-bottom:2px;}
+div.row { clear:both; }
+body.dp {}
+body.dp div.h_rule { clear:none; }
+body.dp div.unified_widget { clear:none; } 
+div.asinCoop div.asinItem { float:none; width:100%;}
+div.asinCoop_header {}
+div.asinCoop_footer {}
+
+div.newAndFuture div.asinItem ul { font-size:100%; }
+div.newAndFuture div.asinItem li { list-style-position: outside; margin:0 0 0.35em 20px; padding:0; text-indent: 0; }
+div.newAndFuture h3 { font-size:100%; margin:1em 0 ; }
+div.newAndFuture a:link, div.newAndFuture a:visited { text-decoration:underline; }
+div.newAndFuture a:hover { text-decoration:underline; }
+div.newAndFuture p.seeMore { margin:-0.75em 0 0 35px; }
+
+div.unified_widget ol.topList { margin: 0; padding: 0; list-style: none; }
+div.unified_widget ol.topList li { list-style: none; clear: both; display: list-item; padding-top: 6px; }
+div.unified_widget ol.topList .productImage { display: block; float: left;vertical-align: top;text-align: center;width:60px; }
+div.unified_widget ol.topList .productText { display: block; float: left; padding-left:10px; vertical-align: top; }
+:root div.unified_widget span.productImage { display: table-cell; float: none; }
+:root div.unified_widget span.productText { display: table-cell; float: none; }
+div.unified_widget dl.priceBlock {margin:0 0 0.45em 0;}
+div.unified_widget dl.priceBlock dt {clear:left; font-weight:bold; float:left; margin:0 0.3em 0 0;}
+div.unified_widget dl.priceBlock dd {margin:0 0 0.2em 0;}
+div.unified_widget .bold {font-weight:bold;}
+div.unified_widget .byline {font-size: 95%; font-weight: normal;}
+table.thirdLvlNavContent div.blurb {margin:10px;}
+
+div.pageBanner h1 { font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:225%; color: #e47911; letter-spacing:-0.03em; margin:0; }
+div.pageBanner p { font-size:90%; color:#888888; margin: 0; }
+
+div.pageBanner h1.bkgnd { background-repeat:no-repeat; background-color:#FFFFFF; overflow:hidden; text-indent:-100em; }
+INPUT { font-family: fixed; }
+
+    BODY { background-color: #FFFFFF; font-family: verdana,arial,helvetica,sans-serif; font-size: small; }
+    TD { font-family: verdana,arial,helvetica,sans-serif; font-size: small; }
+    TH { font-family: verdana,arial,helvetica,sans-serif; font-size: small; }
+    .h1 { font-family: verdana,arial,helvetica,sans-serif; color: #E47911; font-size: medium; }
+    .h3color { font-family: verdana,arial,helvetica,sans-serif; color: #E47911; font-size: small; } 
+    .tiny { font-family: verdana,arial,helvetica,sans-serif; font-size: x-small; } 
+    .tinyprice { font-family: verdana,arial,helvetica,sans-serif; color: #990000; font-size: x-small; } 
+    .highlight { font-family: verdana,arial,helvetica,sans-serif; color: #990000; font-size: small; } 
+  --></style>
+
+  <title>Amazon.in - Order 402-0638553-2669155</title>
+
+
+<link type='text/css' href='https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/in-site-wide-css-beacon/site-wide-8623923713._V1_.css' rel='stylesheet'>
+<style type="text/css">
+
+/* non-sprited */
+.ap_popover_unsprited .ap_body   .ap_left   { background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_left_17._CB248144977_.png); }
+.ap_popover_unsprited .ap_body   .ap_right  { background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_right_17._CB248144979_.png); }
+.ap_popover_unsprited .ap_header .ap_left   { background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_left._CB265110087_.png); }
+.ap_popover_unsprited .ap_header .ap_right  { background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_right._CB265110087_.png); }
+.ap_popover_unsprited .ap_header .ap_middle { background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top._CB265110086_.png); }
+.ap_popover_unsprited .ap_footer .ap_left   { background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_left._CB265110084_.png); }
+.ap_popover_unsprited .ap_footer .ap_right  { background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_right._CB265110087_.png); }
+.ap_popover_unsprited .ap_footer .ap_middle { background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom._CB265110084_.png); }
+
+/* Everything else -- sprited */
+.ap_popover_sprited .ap_body .ap_left, 
+.ap_popover_sprited .ap_body .ap_right {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-v._CB219326283_.png);
+}
+
+
+.ap_popover_sprited .ap_header .ap_left, 
+.ap_popover_sprited .ap_header .ap_right,
+.ap_popover_sprited .ap_header .ap_middle,
+.ap_popover_sprited .ap_footer .ap_left, 
+.ap_popover_sprited .ap_footer .ap_right,
+.ap_popover_sprited .ap_footer .ap_middle,
+.ap_popover_sprited .ap_closebutton {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-h._CB219326280_.png);
+}
+
+.ap_popover_sprited .ap_body .ap_right-arrow, .ap_popover_sprited .ap_body .ap_left-arrow {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-arrow-v._CB219326286_.png);
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+var amznJQ,jQueryPatchIPadOffset=false;
+(function() {
+  function f(x) {return function(){x.push(arguments);}}
+  function ch(y) {return String.fromCharCode(y);}
+  var a=[],c=[],cs=[],d=[],l=[],o=[],s=[],p=[],t=[];
+  amznJQ={
+    _timesliceJS: false,
+    _a:a,_c:c,_cs:cs,_d:d,_l:l,_o:o,_s:s,_pl:p,
+    addLogical:f(l),
+    addStyle:f(s),
+    addPL:f(p),
+    available:f(a),
+    chars:{EOL:ch(10), SQUOTE:ch(39), DQUOTE:ch(34), BACKSLASH:ch(92), YEN:ch(165)},
+    completedStage:f(cs),
+    declareAvailable:f(d),
+    onCompletion:f(c),
+    onReady:f(o),
+    strings:{}
+  };
+}());
+
+
+</script>
+
+
+<!-- nav-config-asset-injection IN::desktop::standard::49719:C::auiDebug=0::isSecure=1 navc-kePHIY5SFKZUceggMgBtYYQg0Q7rYWneIYoV8GJYSeBz0BqpPnjB7A== rid-1WWMWRHC6JYBBC0BGVGW seq-306 (Tue Aug  2 08:07:53 2016) **CACHED-BY-NCCC** -->
+<link rel="stylesheet" href="https://images-eu.ssl-images-amazon.com/images/I/71xDXkxgOnL._RC|01lxpkIhxkL.css,316iR9-7ZsL.css,21-IrxM6-jL.css,21HnNaydNYL.css_.css#AUIClients/NavDesktopMetaAsset" />
+
+<!-- nav-config-asset-injection IN::desktop::standard::none::aui-p navc-nuXGG73l49vp/qU/YXjJmqwA/Z3LIE85y9zQwOI4no0m61G7hiy/oQ== rid-1R58XPM6SBQDRD6RF5EQ seq-729 (Tue Aug  2 08:08:01 2016) **CACHED-BY-NCCC** -->
+<script>
+(function(p,t,u,b){function m(a,c){y&&y.count&&y.count("aui:"+a,0===c?0:c||(y.count("aui:"+a)||0)+1)}function l(a,c,b){a.addEventListener?a.addEventListener(c,b,!1):a.attachEvent&&a.attachEvent("on"+c,b)}function k(a,c,b,d){c=c&&b?c+a+b:c||b;return d?k(a,c,d):c}function h(a,c,b){try{Object.defineProperty(a,c,{value:b,writable:!1})}catch(d){a[c]=b}return b}function g(){return setTimeout(E,0)}function f(a,c){var b=a.length,d=b,e=function(){d--||(A.push(c),D||(g(),D=!0))};for(e();b--;)C[a[b]]?e():(G[a[b]]=
+G[a[b]]||[]).push(e)}function e(a,c,b,d){var e=t.createElement(a?"script":"link");l(e,"error",d);if(a){e.type="text/javascript";e.async=!0;if(a=b)a=-1!==c.indexOf("images/I")||/AUIClients/.test(c);a&&e.setAttribute("crossorigin","anonymous");e.src=c}else e.rel="stylesheet",e.href=c;t.getElementsByTagName("head")[0].appendChild(e)}function d(a,c){return function(b){function d(){e(c,b,f,function(c){H?m("resource_unload"):f?(f=!1,m("resource_retry"),d()):(m("resource_error"),a.log("Asset failed to load: "+
+b));c&&c.stopPropagation?c.stopPropagation():p.event&&(p.event.cancelBubble=!0)})}if(F[b])return!1;F[b]=!0;m("resource_count");var f=!0;return!d()}}function a(a){for(var c=[],b=0;b<a.length;b++)c[b]=I[a[b]];return c}function c(c,d,e,g,h){return function(l,m){function q(){var c=null;g?c=m:"function"===typeof m&&(v.start=z(),c=m.apply(p,a(w)),v.end=z());if(d){I[l]=c;c=l;for(C[c]=!0;(G[c]||[]).length;)G[c].shift()();delete G[c]}v.done=!0}var r=h||this;"function"===typeof l&&(m=l,l=b);d&&(l=(l||"__NONAME__").replace(/^prv:/,
+""),I.hasOwnProperty(l)&&r.error(k(" @ ","Component already registered",l),l),I[l]=b);for(var w=[],x=0;x<c.length;x++)w[x]=c[x].replace(/^prv:/,"");var v=J[l]={depend:w,registered:z()};e?q():f(w,r.guardFatal(l,q))}}function q(a){return function(){return{execute:c(arguments,!1,a,!1,this),register:c(arguments,!0,a,!1,this)}}}function r(a,c){return function(d,e){e||(e=d,d=b);return function(){L.push({attribution:a,name:d,logLevel:c});var b=e.apply(this,arguments);L.pop();return b}}}function w(a,c){this.logError=
+function(c,b,d,e){return p.ueLogError?(b={message:b,logLevel:d||"ERROR",attribution:k(":",a,e)},p.ueLogError(c||b,c?b:null),!0):!1};this.error=function(c,b,d,e){c=Error(k(":",e,c,d));c.attribution=k(":",a,b);throw c;};this.guardError=r(a);this.guardFatal=r(a,"FATAL");this.load={js:d(this,!0),css:d(this)};h(this,"namespace",c)}function x(){t.body?K.trigger("a-bodyBegin"):setTimeout(x,20)}var v=p.AmazonUIPageJS||p.P;if(v&&v.when&&v.register)throw Error("A copy of P has already been loaded on this page.");
+var y=p.ue;y&&y.tag&&(y.tag("aui"),y.tag("aui:aui_build_date:3.16.8.5-2016-07-28"));var z=u.now=u.now||function(){return+new u},A=[],D=!1,E;E=function(){for(var a=g(),c=z();A.length;)if(A.shift()(),50<z()-c)return;clearTimeout(a);D=!1};(function(a){try{return a.test(navigator.userAgent)}catch(c){return!1}})(/OS 6_[0-9]+ like Mac OS X/i)&&l(p,"scroll",g);var C={},G={},F={},H=!1;l(p,"beforeunload",function(){H=!0;setTimeout(function(){H=!1},1E4)});var I={},J={},L=[],B=p.onerror;p.onerror=function(a,
+c,d,e,f){f&&"object"===typeof f||(f=Error(a,c,d),f.columnNumber=e,f.stack=c||d||e?k(String.fromCharCode(92),f.message,"at "+k(":",c,d,e)):b);var g=L.pop()||{};f.attribution=k(":",f.attribution||g.attribution,g.name);f.logLevel=g.logLevel;f.attribution&&console&&console.log&&console.log([f.logLevel||"ERROR",a,"thrown by",f.attribution].join(" "));L=[];B&&(g=[].slice.call(arguments),g[4]=f,B.apply(p,g))};w.prototype={log:function(a,c,b){return this.logError(null,a,c,b)},declare:c([],!0,!0,!0),register:c([],
+!0),execute:c([]),AUI_BUILD_DATE:"3.16.8.5-2016-07-28",when:q(),now:q(!0),trigger:function(a,c){var b=z();this.declare(a,{data:c,pageElapsedTime:b-(p.aPageStart||NaN),triggerTime:b})},handleTriggers:function(){this.log("handleTriggers deprecated")},attributeErrors:function(a){return new w(a)},_namespace:function(a,c){return new w(a,c)}};var K=h(p,"AmazonUIPageJS",new w);K._namespace("PageJS","AmazonUI").declare("prv:p-debug",J);K.declare("p-recorder-events",[]);K.declare("p-recorder-stop",
+function(){});x();if(t.addEventListener){var M;t.addEventListener("DOMContentLoaded",M=function(){K.trigger("a-domready");t.removeEventListener("DOMContentLoaded",M,!1)},!1)}K.declare("a-event-revised-handling",!1)})(window,document,Date);
+</script>
+<script type="text/javascript">
+(function(c,b){function g(a){e.push(a)}function f(a){if(a){var b=c.head||c.getElementsByTagName("head")[0]||c.documentElement,d=c.createElement("script");d.async="async";d.src=a;d.setAttribute("crossorigin","anonymous");b.insertBefore(d,b.firstChild)}}function h(){ue.uels=f;for(var a=0;a<e.length;a++)f(e[a]);ue.deffered=1}var e=[];b.ue&&(ue.uels=g,b.ue.attach&&b.ue.attach("load",h))})(document,window);
+
+if (window.ue && window.ue.uels) {
+    ue.uels("https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/ClientSideMetricsAUIJavascript-4a1e4636e751d755aabb2f0caacca454321808f5._V2_.js");
+}
+ue_tbpv = 1;
+
+(function(h,d){function e(c){c="";var b=a.isBFT?"b":"s",e=""+a.oid,d=""+a.lid,f=e;e!=d&&20==d.length&&(b+="a",f+="-"+d);a.tabid&&(c=a.tabid+"+");c+=b+"-"+f;c!=g&&100>c.length&&(g=c,document.cookie="csm-hit="+c+("|"+ +new Date)+l+"; path=/")}function m(){g=0}function k(b){!0===d[a.pageViz.propHid]?g=0:!1===d[a.pageViz.propHid]&&e({type:"visible"})}var l="; expires="+(new Date(+new Date+6048E5)).toGMTString(),g,b=h.ue_tbpv,a=h.ue||{},f=b&&a.pageViz&&a.pageViz.event&&a.pageViz.propHid;a.attach&&(a.attach("click",
+e),a.attach("keyup",e),f&&4!=b&&5!=b||(a.attach("focus",e),a.attach("blur",m)),f&&a.attach(a.pageViz.event,k,d),!f||3!=b&&5!=b||k({}));a.aftb=1})(ue_csm,document);
+
+(function(g,c,h){function e(a,d,b){a&&a.indexOf&&0===a.indexOf("http")&&0!==a.indexOf("https")&&!k[a]&&(b=p&&b?l(b):"N/A",c.ueLogError&&c.ueLogError({message:q+d+" : "+a,logLevel:r},{attribution:b}),k[a]=1,m++)}function f(a,d){if(a&&d)for(var b=0;b<a.length;b++)try{d(a[b])}catch(c){}}function l(a){if(a.id)return"//*[@id='"+a.id+"']";var d;d=1;var b;for(b=a.previousSibling;b;b=b.previousSibling)b.nodeName==a.nodeName&&(d+=1);b=a.nodeName;1!=d&&(b+="["+d+"]");a.parentNode&&(b=l(a.parentNode)+"/"+b);
+return b}function s(){var a=h.images;a&&a.length&&f(a,function(a){var b=a.getAttribute("src");e(b,"img",a)})}function t(){var a=h.scripts;a&&a.length&&f(a,function(a){var b=a.getAttribute("src");e(b,"script",a)})}function u(){var a=h.styleSheets;a&&a.length&&f(a,function(a){(a=a.ownerNode)&&e(a.getAttribute("href"),"style",a)})}function v(){if(w){var a;a=c.performance&&c.performance.getEntriesByType?c.performance.getEntriesByType("resource"):void 0;a&&a.length&&f(a,function(a){e(a.name,a.initiatorType)})}}
+function n(){var a;a=c.location&&c.location.protocol?c.location.protocol:void 0;"https:"==a&&(v(),s(),t(),u(),m<x&&setTimeout(n,y))}var q="[CSM] Insecure content detected ",r="WARN",k={},m=0,y=g.ue_nsip||1E3,x=5,w=1==g.ue_urt,p=3==g.ue_urt;ue_csm.ue_disableNonSecure||(c.performance&&c.performance.setResourceTimingBufferSize&&c.performance.setResourceTimingBufferSize(300),n())})(ue_csm,window,document);
+
+(function(a){var b=a.alert;window.alert=function(){a.ueLogError&&a.ueLogError({message:"[CSM] Alert invocation detected with argument: "+arguments[0],logLevel:"WARN"});Function.prototype.apply.apply(b,[a,arguments||[]])}})(window);
+
+(function(k,l,g){function m(a){c||(c=b[a.type].id,"undefined"===typeof a.clientX?(e=a.pageX,f=a.pageY):(e=a.clientX,f=a.clientY),2!=c||h&&(h!=e||n!=f)?(r(),d.isl&&l.setTimeout(function(){p("at",d.id)},0)):(h=e,n=f,c=0))}function r(){for(var a in b)b.hasOwnProperty(a)&&d.detach(a,m,b[a].parent)}function s(){for(var a in b)b.hasOwnProperty(a)&&d.attach(a,m,b[a].parent)}function t(){var a="";!q&&c&&(q=1,a+="&ui="+c);return a}var d=k.ue,p=k.uex,q=0,c=0,h,n,e,f,b={click:{id:1,parent:g},mousemove:{id:2,
+parent:g},scroll:{id:3,parent:l},keydown:{id:4,parent:g}};d&&p&&(s(),d._ui=t)})(ue_csm,window,document);
+
+ue_csm.ue.stub(ue,"impression");
+
+if(window.uet && typeof webclient !== 'undefined' && typeof webclient.getRealClickTime === 'function') {
+    // Fix for intra page navigation (multiple pages in the same webview) problem, realClickTime is not uploaded
+    if (window.history && typeof window.History === 'function' && typeof window.history === 'object' && history.length == 1) {
+	    uet('mtc', undefined, undefined, webclient.getRealClickTime());
+    } else if (window.performance && performance.timing && performance.timing.navigationStart) {
+    	uet('mtc', undefined, undefined, performance.timing.navigationStart);
+    }
+	
+	ues('ctb', undefined, '1');
+}
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+window.AmazonPopoverImages = {
+  snake: 'https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/snake._CB192571611_.gif',
+  btnClose: 'https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/btn_close._CB192188154_.gif',
+  closeTan: 'https://images-eu.ssl-images-amazon.com/images/G/31/nav2/images/close-tan-sm._CB138348872_.gif',
+  closeTanDown: 'https://images-eu.ssl-images-amazon.com/images/G/31/nav2/images/close-tan-sm-dn._CB138348875_.gif',
+  loadingBar: 'https://images-eu.ssl-images-amazon.com/images/G/01/javascripts/lib/popover/images/loading-bar-small._CB192188123_.gif',
+  pixel: 'https://images-eu.ssl-images-amazon.com/images/G/01/icons/blank-pixel._CB192192429_.gif'
+};
+var container = document.createElement("DIV");
+container.id = "ap_container";
+if (document.body.childNodes.length) {
+    document.body.insertBefore(container, document.body.childNodes[0]);
+} else {
+    document.body.appendChild(container);
+}
+
+</script>
+
+    <script type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/browser-scripts/site-wide-js-1.2.6-beacon/site-wide-3750999928._V1_.js"></script>
+<script type='text/javascript'>
+    amznJQ.addLogical('popover', []);
+    amznJQ.addLogical('currency-rupee', []);
+</script>
+
+
+  
+  
+
+
+
+
+<img src="https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/common/amazon-logo-tiny._CB138348653_.gif" width="91" align="left" height="26" border="0" />
+
+<br />
+
+  
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+        
+
+
+
+
+        
+
+    
+
+
+
+
+
+
+
+
+            
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+        
+
+
+
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
+
+  
+
+
+
+
+
+
+
+
+        
+
+        
+
+
+
+
+
+        
+
+
+
+
+    <noscript>
+<style type="text/css">
+.currencyINRFallback {
+     display:inline !important;
+}
+.currencyINR {
+    display:none !important;
+}
+</style>
+</noscript>
+
+    <script type="text/javascript">
+jQuery(window).ready(function(){
+/*  
+    This code replaces all of the non-printable div's with the rupee symbol as background
+    And fills them with printable image tags.
+*/
+    (function($) {
+        var selector = ".currencyINR";
+
+        
+        var imgSizeMap = {  '-14px -303px':'https://images-eu.ssl-images-amazon.com/images/G/31/INRupeeCurrency/rupee-black-10px._CB375278098_.png',
+                            '-16px -318px':'https://images-eu.ssl-images-amazon.com/images/G/31/INRupeeCurrency/rupee-black-11px._CB375278311_.png',
+                            '-16px -333px':'https://images-eu.ssl-images-amazon.com/images/G/31/INRupeeCurrency/rupee-black-12px._CB375278334_.png',
+                            '-18px -348px':'https://images-eu.ssl-images-amazon.com/images/G/31/INRupeeCurrency/rupee-black-13px._CB375289186_.png',
+                            '-18px -363px':'https://images-eu.ssl-images-amazon.com/images/G/31/INRupeeCurrency/rupee-black-14px._CB375289213_.png',
+                            '-20px -378px':'https://images-eu.ssl-images-amazon.com/images/G/31/INRupeeCurrency/rupee-black-15px._CB375289212_.png',
+                            '-20px -393px':'https://images-eu.ssl-images-amazon.com/images/G/31/INRupeeCurrency/rupee-black-16px._CB375289215_.png',
+                            '-22px -423px':'https://images-eu.ssl-images-amazon.com/images/G/31/INRupeeCurrency/rupee-black-18px._CB375289214_.png',
+                            '-12px -438px':'https://images-eu.ssl-images-amazon.com/images/G/31/INRupeeCurrency/rupee-black-20px._CB375289209_.png'
+                        };
+
+        $(selector).each(function(){
+            if ($.browser.msie == true) {
+                var back_x = $(this).css('background-position-x'),
+                back_y = $(this).css('background-position-y'),
+                back_position = back_x+" "+back_y;
+            } else {
+                var back_position = $(this).css('background-position');
+            }
+            //chomp functionality
+            back_position = back_position.replace(/^[\s]+/,'').replace(/[\s]+$/,'');
+            $(this).html("<img src='" + imgSizeMap[back_position] + "'/>");
+            $(this).toggleClass("currencyINRPrintable");
+        });
+        //get rid of previous css controlling the span
+        $(selector).toggleClass("currencyINR");
+        //turn off/hide the Rs.
+        $("span.currencyINRFallback").toggleClass("currencyINRFallback");
+    })(jQuery);
+});
+</script>
+
+
+<br clear=\"all\" />
+  <center><b class="h1">
+        Details for Order #402-0638553-2669155
+  </b><br />
+
+    <script>
+        //works if JS is enabled
+        document.write("<a href='#' onclick='javascript:window.print();'>Print this page for your records.</a>");
+    </script>
+</center><br />
+
+<table width="90%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
+  <tr>
+    <td> 
+
+
+
+
+
+
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+
+
+
+
+        <tr><td valign="top" align="left">
+          <b>
+                Order Placed:
+          </b>
+          2 August 2016
+        </td></tr>
+      
+        <tr><td valign="top" align="left">
+          <b>Amazon.in order number:</b>
+          402-0638553-2669155
+        </td></tr>
+      
+      
+        <tr><td valign="top" align="left">
+          <b>Order Total:
+          <span style="text-decoration: inherit; white-space: nowrap;"><span class="currencyINR">&nbsp;&nbsp;</span><span class="currencyINRFallback" style="display:none">Rs. </span>11,079.00</span></b>
+        </td></tr>
+
+
+      </table>
+      <br />
+        
+
+
+
+
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000" align="center">
+  <tr bgcolor="#000000">
+    <td>
+      <table width="100%" border="0" cellspacing="3" cellpadding="0" align="center" bgcolor="#000000">
+        <tr bgcolor="#ffffff">
+          <td valign="top" colspan="2">
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr bgcolor="#ffffff">
+                <td>
+                  <b class="sans"><center>
+
+                    Not Yet Dispatched
+                  </center></b>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#ffffff" valign="top" colspan="2">
+            <table width="100%" border="0" cellspacing="0" cellpadding="2">
+              <tr valign="top">
+                <td width="100%">
+                  <table border="0" cellspacing="0" cellpadding="2" align="right">
+                    <tr valign="top">
+                      <td align="right">
+                        &nbsp;
+                      </td>
+                    </tr>
+                  </table>
+                  <table border="0" cellspacing="2" cellpadding="0" width="100%">
+                    <tr valign="top">
+                      <td valign="top">
+                        <b>Items Ordered</b>
+                      </td>
+                      <td align="right" valign="top">
+                        <b>Price</b>
+                      </td>
+                    </tr>
+                    
+
+
+
+
+  <tr>
+  <input type="hidden" name="mmonmrjomrkvqw" value="1" />
+  <td colspan="1" valign="top">
+    
+    1
+  
+    of:
+
+    <i>Lenovo Vibe K4 Note (Black, 16GB)</i><br />
+
+
+    <span class='tiny'>
+      Sold by: GreenMobiles (<a href="http://www.amazon.in/gp/help/seller/at-a-glance.html/ref=od_sold_by_link?ie=UTF8&amp;isAmazonFulfilled=1&amp;marketplaceSeller=1&amp;orderID=402-0638553-2669155&amp;seller=A2HIN95H5BP4BL">seller profile</a>)
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+<br />
+      
+
+      <br />
+
+         <br />
+
+
+    </span>
+    
+  </td>
+  <td align="right" valign="top" colspan="2">
+    
+    <span style="text-decoration: inherit; white-space: nowrap;"><span class="currencyINR">&nbsp;&nbsp;</span><span class="currencyINRFallback" style="display:none">Rs. </span>10,999.00</span><br />
+     
+  </td></tr>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+      
+                  </table>
+                  <br />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#ffffff" valign="top" colspan="2">
+            <table width="100%" border="0" cellspacing="0" cellpadding="2">
+              <tr>
+                <td>
+                  
+
+<b>
+Delivery Address:
+</b>
+
+
+
+<br />
+
+
+
+<div class="displayAddressDiv">
+<ul class="displayAddressUL">
+<li class="displayAddressLI displayAddressFullName"><span class="id-addr-ux-search-text">Vishal kumar</span></li>
+<li class="displayAddressLI displayAddressAddressLine1"><span class="id-addr-ux-search-text">c/o:Shyan sundar thakur</span></li>
+<li class="displayAddressLI displayAddressAddressLine2"><span class="id-addr-ux-search-text">Rajiv nagar road no-8d</span></li>
+<li class="displayAddressLI displayAddressCityStateOrRegionPostalCode"><span class="id-addr-ux-search-text">PATNA, BIHAR 800024</span></li>
+<li class="displayAddressLI displayAddressCountryName"><span class="id-addr-ux-search-text">India</span></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+
+
+<br /><b>
+Delivery Option:
+</b>
+
+
+
+<br />
+Two-Day Delivery at Rs. 80.  FREE with Prime
+<br />
+
+
+
+
+
+                  
+
+
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+
+
+
+
+
+
+
+ 
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000" align="center">
+  <tr bgcolor="#000000"> 
+    <td> 
+      <table width="100%" border="0" cellspacing="3" cellpadding="0" align="center" bgcolor="#000000">
+        <tr bgcolor="#ffffff">
+          <td valign="top" colspan="2">
+            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+              <tr bgcolor="#ffffff">
+                <td>
+                  <b class="sans"><center>Payment information</center></b>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td bgcolor="#ffffff" valign="top" colspan="2"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="2">
+              <tr valign="top"> 
+                <td width="100%"> 
+                  <table border="0" cellspacing="0" cellpadding="2" align="right">
+                    <tr valign="top"> 
+                      <td align="right">
+                        <table border="0" cellpadding="0" cellspacing="1">
+    
+    <tr valign="top">
+        <td nowrap="nowrap" align="right">Item(s) Subtotal:</td>
+        <td nowrap="nowrap" align="right" ><span style="text-decoration: inherit; white-space: nowrap;"><span class="currencyINR">&nbsp;&nbsp;</span><span class="currencyINRFallback" style="display:none">Rs. </span>10,999.00</span></td>
+    </tr> 
+    
+    <tr valign="top">
+        <td nowrap="nowrap" align="right">Shipping:</td>
+        <td nowrap="nowrap" align="right" ><span style="text-decoration: inherit; white-space: nowrap;"><span class="currencyINR">&nbsp;&nbsp;</span><span class="currencyINRFallback" style="display:none">Rs. </span>80.00</span></td>
+    </tr> 
+    
+    <tr valign="top">
+        <td nowrap="nowrap" align="right">&nbsp;</td>
+        <td nowrap="nowrap" align="right">-----</td>
+    </tr> 
+    
+    <tr valign="top">
+        <td nowrap="nowrap" align="right">Total:</td>
+        <td nowrap="nowrap" align="right" ><span style="text-decoration: inherit; white-space: nowrap;"><span class="currencyINR">&nbsp;&nbsp;</span><span class="currencyINRFallback" style="display:none">Rs. </span>11,079.00</span></td>
+    </tr> 
+    
+    <tr valign="top">
+        <td nowrap="nowrap" align="right">&nbsp;</td>
+        <td nowrap="nowrap" align="right">-----</td>
+    </tr> 
+    
+    <tr valign="top">
+        <td nowrap="nowrap" align="right"><b>Grand Total:</b></td>
+        <td nowrap="nowrap" align="right" ><b><span style="text-decoration: inherit; white-space: nowrap;"><span class="currencyINR">&nbsp;&nbsp;</span><span class="currencyINRFallback" style="display:none">Rs. </span>11,079.00</span></b></td>
+    </tr> 
+</table>
+
+                      </td>
+                    </tr>
+                  </table>
+ 
+                  
+
+
+<b>Payment Method: </b>
+
+
+<br />
+
+
+    MasterCard
+    <nobr> | Last digits: 8817</nobr>
+  <br /> 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+                  
+
+<br />
+<b>Billing Address:</b>
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+<div class="displayAddressDiv">
+<ul class="displayAddressUL">
+<li class="displayAddressLI displayAddressFullName"><span class="id-addr-ux-search-text">Vishal kumar</span></li>
+<li class="displayAddressLI displayAddressAddressLine1"><span class="id-addr-ux-search-text">c/o:Shyan sundar thakur</span></li>
+<li class="displayAddressLI displayAddressAddressLine2"><span class="id-addr-ux-search-text">Rajiv nagar road no-8d</span></li>
+<li class="displayAddressLI displayAddressCityStateOrRegionPostalCode"><span class="id-addr-ux-search-text">PATNA, BIHAR 800024</span></li>
+<li class="displayAddressLI displayAddressCountryName"><span class="id-addr-ux-search-text">India</span></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+                  
+
+ 
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+ 
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+
+    </td>
+  </tr>
+</table>
+
+<center>
+  <p>To view the status of your order, return to <a href="/gp/css/summary/edit.html?ie=UTF8&orderID=402-0638553-2669155">Order Summary</a>.</p>
+
+  <p><b>Please note:</b> this is not a VAT invoice.</p>
+</center>
+
+<script>   if (typeof uet == 'function') { uet('cf'); } </script> 
+<br />
+
+
+
+
+
+<table align="center" width="100%">
+
+
+
+<tr align="center"><td colspan="2">
+<font size="-2">
+
+
+
+
+
+
+
+<a href="http://www.amazon.in/gp/help/customer/display.html/ref=cs_nav_bn_2_1?ie=UTF8&amp;nodeId=200522590" rel="nofollow">Conditions of Use & Sale</a>&nbsp;|&nbsp;
+
+
+
+
+
+
+<a href="http://www.amazon.in/gp/help/customer/display.html?_encoding=UTF8&amp;nodeId=200522700" rel="nofollow">Privacy Notice</a>&nbsp;|&nbsp;
+
+
+
+
+
+
+<a href="http://www.amazon.in/gp/help/customer/display.html?ie=UTF8&amp;nodeId=200571750" rel="nofollow">Legal Notice</a>&nbsp;&nbsp;&#169; 2012-2015, Amazon.com, Inc. and its affiliates</font>
+</td></tr>
+<!-- whfh-WTafbav1xerp+sGB2fDYo1T6vXp7AzCUSDeGSEdW8L7uF+STk5Jk8g== rid-KGYPD7FNFYZM3Y9WFDMX -->
+</table>
+
+
+
+
+<script type='text/javascript'>
+    
+    window.ue_csm.cel_widgets = [
+         {  c: "celwidget"  } , {  id: "fallbacksessionShvl"  } , {  id: "rhf"  } 
+    ];
+
+
+
+
+</script>
+
+<div id='be' style='display:none;visibility:hidden;'><form name='ue_backdetect'><input name='ue_back' value='1' type='hidden'></form><script type="text/javascript">
+(function(a){var b=document.ue_backdetect;b&&b.ue_back&&a.ue&&(a.ue.bfini=b.ue_back.value);a.uet&&a.uet("be");a.onLdEnd&&(window.addEventListener?window.addEventListener("load",a.onLdEnd,!1):window.attachEvent&&window.attachEvent("onload",a.onLdEnd));a.ueh&&a.ueh(0,window,"load",a.onLd,1);a.ue&&a.ue.tag&&(a.ue_furl&&a.ue_furl.split?(b=a.ue_furl.split("."))&&b[0]&&a.ue.tag(b[0]):a.ue.tag("nofls"))})(ue_csm);
+
+
+var ue_pty='RCXYourAccount', ue_spty='DisplayInvoiceStatus', ue_pti='';
+
+</script>
+
+<a href='/gp/css/summary/print.html/ref=od_aui_print_invoice/uedata/unsticky/256-3220775-4395951/YourAccount/ntpoffrw?tepes=1&amp;id=KGYPD7FNFYZM3Y9WFDMX'>v</a>
+<noscript>
+     <img src='/gp/css/summary/print.html/ref=od_aui_print_invoice/uedata/unsticky/256-3220775-4395951/YourAccount/ntpoffrw?noscript&amp;id=KGYPD7FNFYZM3Y9WFDMX&amp;pty=RCXYourAccount&amp;spty=DisplayInvoiceStatus&amp;pti=' />
+     <img src='//fls-eu.amazon.in/1/batch/1/OP/A21TJRUUN4KGV:256-3220775-4395951:KGYPD7FNFYZM3Y9WFDMX$uedata=s:%2Fgp%2Fcss%2Fsummary%2Fprint.html%2Fref%3Dod_aui_print_invoice%2Fuedata%2Funsticky%2F256-3220775-4395951%2FYourAccount%2Fntpoffrw%3Fnoscript%26id%3DKGYPD7FNFYZM3Y9WFDMX%26pty%3DRCXYourAccount%26spty%3DDisplayInvoiceStatus%26pti%3D:2000' />
+
+</noscript>
+</div>
+<script type='text/javascript'>
+(function(g,h){function d(a,d){var b={};if(!e||!f)try{var c=h.sessionStorage;c?a&&("undefined"!==typeof d?c.setItem(a,d):b.val=c.getItem(a)):f=1}catch(g){e=1}e&&(b.e=1);return b}var b=g.ue||{},a="",f,e,c,a=d("csmtid");f?a="NA":a.e?a="ET":(a=a.val,a||(a=b.oid||"NI",d("csmtid",a)),c=d(b.oid),c.e||(c.val=c.val||0,d(b.oid,c.val+1)),b.ssw=d);b.tabid=a})(ue_csm,window);
+
+</script>
+<script type='text/javascript'>
+(function(b,c){var a=c.images;a&&a.length&&b.ue.count("totalImages",a.length)})(ue_csm,document);
+
+</script>
+<script type='text/javascript'>
+(function(m,h){function I(a){if(a)return a.replace(/^\s+|\s+$/g,"")}function x(a,e){if(!a)return{};a.m&&a.m[k]&&(a=a.m);var b=e.m||e[k]||"",b=a.m&&a.m[k]?b+a.m[k]:a.m&&a.m.target&&a.m.target.tagName?b+("Error handler invoked by "+a.m.target.tagName+" tag"):a.m?b+a.m:a[k]?b+a[k]:b+"Unknown error",b={m:b,f:a.f||a.sourceURL||a.fileName||a.filename||a.m&&a.m.target&&a.m.target.src,l:a.l||a.line||a.lineno||a.lineNumber,c:a.c?""+a.c:a.c,s:[],t:m.ue.d(),name:a.name,type:a.type,csm:J+" "+(a.fromOnError?"onerror":
+"ueLogError")},d,c,g=0,f=0,n;c=h.location;d=a.stack||(a.err?a.err.stack:"");b[y]=e[y]||c&&c.href||"missing";b[p]=e[p]||z;(c=e[q])&&(b[q]=""+c);m.ue_ld_err&&h.performance&&h.performance.timing&&(c=h.performance.timing,f=window.performance&&window.performance.now&&window.performance.timing?window.performance.now()+window.performance.timing.navigationStart:+new Date,b.ld=0<c.loadEventStart&&(0===c.loadEventEnd||f<c.loadEventEnd+3));if(d&&d.split)for(b.csm+=" stack",c=d.split("\n");g<c.length&&b.s.length<
+A;)(d=c[g++])&&b.s.push(I(d));else for(b.csm+=" callee",c=B(a.args||arguments,"callee"),f=g=0;c&&g<A;)n=t,c[r]||(d=c.toString())&&d.substr&&(n=0===f?4*t:n,n=1==f?2*t:n,b.s.push(d.substr(0,n)),f++),c=B(c,"caller"),g++;!b.f&&0<b.s.length&&(g=b,d=(g||{}).s||[],c=d[1]||"",d=(d[0]||"").match(K)||c.match(L))&&(g.f=d[1],g.l=d[2]);return b}function B(a,e){try{return a[e]}catch(b){}}function C(a,e){if(a&&!(l.ec>l.mxe)){l.ec++;l.ter.push(a);e=e||{};var b=a[p]||e[p];e[p]=b;e[q]=a[q]||e[q];b&&b!=z||l.ecf++;w(a,
+e)}}function w(a,e){if(a){var b=x(a,e),d=e.channel||M;if(ue.log.isStub&&h[u]&&h[u][v]){var c={};c[d]=b;try{var g=h[u][v]({rid:ue.rid,sid:m.ue_sid,mid:m.ue_mid,sn:m.ue_sn,reqs:[c]}),f=h[N],n;if(n=!(f[D]&&f[D](E,g))){var l;if(h[F]){var k=new h[F];k.onerror=s;k.ontimeout=s;k.onprogress=s;k.onload=s;k.timeout=0;l=k}else{var p;if(h[G]){var q=new h[G];p="withCredentials"in q?q:void 0}else p=void 0;l=p}n=l}if(d=n){d.open("POST",E,!0);if(d[H])d[H]("Content-type","text/plain");d.send(g)}}catch(r){}}else m.ue.log(b,
+d,{nb:1});if(!a.fromOnError){g=h.console||{};d=g.error||g.log||s;c=h[u];f="Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): ";if(c&&c[v])try{f+=c[v](b)}catch(t){f+="no info provided; converting to string failed"}else f+=b.m;d.apply(g,[f,b])}}}var G="XMLHttpRequest",F="XDomainRequest",N="navigator",D="sendBeacon",v="stringify",u="JSON",p="logLevel",q="attribution",y="pageURL",r="skipTrace",H="setRequestHeader",k="message",s=function(){},E="//"+m.ue_furl+
+"/1/batch/1/OE/",l=m.ue_err,M=m.ue_err_chan||"jserr",z="FATAL",J="v6",A=20,t=256,L=RegExp(" (?([^ s]*):( d+): d+ )?".split(" ").join(String.fromCharCode(92))),K=/.*@(.*):(\d*)/;x[r]=1;C[r]=1;w[r]=1;(function(){for(var a,e=0;e<(l.erl||[]).length;e++)a=l.erl[e],w(a.ex,a.info);l.erl=[]})();m.ueLogError=C})(ue_csm,window);
+
+</script>
+<script type='text/javascript'>
+(function(c,d){var b=c.ue,a=d.navigator;b&&b.tag&&a&&(a=a.connection||a.mozConnection||a.webkitConnection)&&a.type&&b.tag("netInfo:"+a.type)})(ue_csm,window);
+
+</script>
+<script type="text/javascript">
+(function(c,d){function g(a,b){for(var c=[],d=0;d<a.length;d++){var f=a[d],e=b.encode(f);if(f[h]){var k=b.metaSep,f=f[h],l=b.metaPairSep,g=[],m=void 0;for(m in f)f.hasOwnProperty(m)&&g.push(m+"="+f[m]);f=g.join(l);e+=k+f}c.push(e)}return c.join(b.resourceSep)}function n(a){var b=a[h]=a[h]||{};b[t]||(b[t]=c.ue_mid);b[u]||(b[u]=c.ue_sid);b[k]||(b[k]=c.ue_id);b.csm=1;a="//"+c.ue_furl+"/1/"+a[v]+"/1/OP/"+a[w]+"/"+a[x]+"/"+g([a],y);if(p)try{p.call(d[q],a)}catch(e){c.ue.sbf=1,(new Image).src=a}else(new Image).src=
+a}function r(){l&&l.isStub&&l.replay(function(a,b,c){a=a[0];b=a[h]=a[h]||{};b[k]=b[k]||c;n(a)});e.impression=n;l=null}if(!(1<c.ueinit)){var h="metadata",x="impressionType",v="foresterChannel",w="programGroup",t="marketplaceId",u="session",k="requestId",q="navigator",e=c.ue||{},p=d[q]&&d[q].sendBeacon,s=function(a,b,c,d){return{encode:d,resourceSep:a,metaSep:b,metaPairSep:c}},y=s("","?","&",function(a){return g(a.impressionData,z)}),z=s("/",":",",",function(a){return a.featureName+":"+g(a.resources,
+A)}),A=s(",","@","|",function(a){return a.id}),l=e.impression;(e.impression||n)({programGroup:"csm",impressionType:"action",impressionData:[{featureName:"csm-features",resources:[{id:"impression-tracking"}]}],foresterChannel:"action-impressions"});p?r():(e.attach("load",r),e.attach("beforeunload",r));d.P&&d.P.register&&d.P.register("impression-client",function(){})}})(ue_csm,window);
+
+</script>
+<script type='text/javascript'>
+ue_csm.ue.exec(function(d,e,a){function b(a,b){return{name:a,getFeatureValue:function(){return void 0!==b|0}}}function h(a,b,c){return{name:a,getFeatureValue:function(){return b===c|0}}}function g(a,b){return{name:a,getFeatureValue:function(){for(var a=0;a<b.length;a++)if(void 0!==b[a])return 1;return 0}}}var k=d.ue_unbf,f=d.ue||{},c=[b("dall",e.all),b("dcm",e.compatMode),b("xhr",a.XMLHttpRequest),b("qs",e.querySelector),b("ael",e.addEventListener),b("atob",a.atob)];if(k){try{c.push(h("no",a.navigator.onLine,
+!1))}catch(l){c.push({name:"no",getFeatureValue:function(){return 2}})}c.push(g("pjs",[a.callPhantom,a._phantom,a.PhantomEmitter,a.__phantomas]),b("njs",a.Buffer),b("cjs",a.emit),b("rhn",a.spawn),b("sel",a.webdriver),g("chrm",[a.domAutomation,a.domAutomationController]),{name:"plg",getFeatureValue:function(){return(void 0!==a.navigator.plugins&&0<a.navigator.plugins.length)|0}})}f._bf=d.ue.exec(function(){for(var a="",b=0;b<c.length;b++)a+=c[b].name+"_"+c[b].getFeatureValue()+"-";(d.ue||{})._bf=null;
+return a},"ue.bf");f._bf.modules=c;f._bf.mpm=b},"bf")(ue_csm,document,window);
+
+</script>
+<!--[if IE 5]>
+<script type='text/javascript'> ue._bf.modules.push( ue._bf.mpm("cc_ie5", 1) ) </script>
+<![endif]-->
+<!--[if IE 6]>
+<script type='text/javascript'> ue._bf.modules.push( ue._bf.mpm("cc_ie6", 1) ) </script>
+<![endif]-->
+<!--[if IE 7]>
+<script type='text/javascript'> ue._bf.modules.push( ue._bf.mpm("cc_ie7", 1) ) </script>
+<![endif]-->
+<!--[if IE 8]>
+<script type='text/javascript'> ue._bf.modules.push( ue._bf.mpm("cc_ie8", 1) ) </script>
+<![endif]-->
+<!--[if IE 9]>
+<script type='text/javascript'> ue._bf.modules.push( ue._bf.mpm("cc_ie9", 1) ) </script>
+<![endif]-->
+<script type='text/javascript'>
+ue_csm.ue.exec(function(e,f){var a=e.ue||{},b=a._wlo,d;if(a.ssw){d=a.ssw("CSM_previousURL").val;var c=f.location,b=b?b:c&&c.href?c.href.split("#")[0]:void 0;c=(b||"")===a.ssw("CSM_previousURL").val;!c&&b&&a.ssw("CSM_previousURL",b);d=c?"reload":d?"intrapage-transition":"first-view"}else d="unknown";a._nt=d},"NavTypeModule")(ue_csm,window);
+
+</script>
+<script type='text/javascript'>
+var ue_mbl=ue_csm.ue.exec(function(e,a){function k(f){b=f||{};a.AMZNPerformance=b;b.transition=b.transition||{};b.timing=b.timing||{};if((f=a.webclient&&"function"===typeof webclient.getRealClickTime?a.cordova&&a.cordova.platformId&&"ios"==cordova.platformId?!1:!0:!1)&&b.tags instanceof Array){var c;c=-1!=b.tags.indexOf("usesAppStartTime")||b.transition.type?!b.transition.type&&-1<b.tags.indexOf("usesAppStartTime")?"warm-start":void 0:"view-transition";c&&(b.transition.type=c)}if(1===e.ue_ios_ip||
+f)"reload"===d._nt&&e.ue_orct||"intrapage-transition"===d._nt?a.performance&&performance.timing&&performance.timing.navigationStart?b.timing.transitionStart=a.performance.timing.navigationStart:delete b.timing.transitionStart:"undefined"===typeof d._nt&&a.performance&&performance.timing&&performance.timing.navigationStart&&a.history&&"function"===typeof a.History&&"object"===typeof a.history&&history.length&&1!=history.length&&(b.timing.transitionStart=a.performance.timing.navigationStart);f=b.transition;
+c=d._nt?d._nt:void 0;f.subType=c;a.ue&&a.ue.tag&&a.ue.tag("has-AMZNPerformance");d.isl&&a.uex&&uex("at","csm-timing");l()}function m(b){a.ue&&a.ue.count&&a.ue.count("csm-cordova-plugin-failed",1)}function l(){try{P.register("AMZNPerformance",function(){return b})}catch(a){}}function g(){if(!b)return"";ue_mbl.cnt=null;var a=b.transition,c;c=b.timing.transitionStart;c="undefined"!==typeof c&&"undefined"!==typeof h?c-h:void 0;a=["mts",c,"mtt",a.type,"mtst",a.subType,"mtlt",a.launchType];c="";for(var d=
+0;d<a.length;d+=2){var e=a[d],g=a[d+1];"undefined"!==typeof g&&(c+="&"+e+"="+g)}return c}function n(a,c){b&&(h=c,b.timing.transitionStart=a,b.transition.type="view-transition",b.transition.subType="ajax-transition",b.transition.launchType="normal",ue_mbl.cnt=g)}var d=e.ue||{},h=e.ue_t0,b;if(a.P&&a.P.when&&a.P.register)return a.P.when("CSMPlugin").execute(function(a){a.buildAMZNPerformance&&a.buildAMZNPerformance({successCallback:k,failCallback:m})}),{cnt:g,ajax:n}},"mobile-timing")(ue_csm,window);
+
+</script>
+</body>
+</html>
+
+
